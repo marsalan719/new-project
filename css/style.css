@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-size: 65.2%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    border-bottom: 1.5px solid black;
+    padding-left: 6em;
+    padding-top: .4em;
+    padding-right: 2em;
+    background: #fff;
+    height: 4rem;
+    width: 1280px ;
+}
+
+.links {
+    font-size: 10em;
+    display: inline-block;
+    margin-top: .3em;
+}
+
+.links .link {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 3vw;
+    padding-bottom: .1vw;
+}
+
+
+.option {
+    display: inline-block;
+}
+
+
+.nav .icons {
+    margin-right: 1.5vw;
+}
+
+.nav::after {
+    content: '';
+    display: block;
+    clear: both;
+
+}
+
+
+
+.icon {
+    border-top: 4px solid white;
+    display: inline-block;
+    float: right;
+    padding-top: 3em;
+    height: 8vh 6vh 0 0;
+
+}
+
+.icon a i {
+    font-size: 18em;
+    color: black;
+
+}
+
+
+
+.link:link {
+    color: black;
+}
+
+.link:visited {
+    color: black;
+}
+
+.link:hover {
+    border-bottom: .1em solid black;
+}
+
+
+
+/* ###################### body ################# */
+
+.content{
+    height: 134em;
+    width: 1280px ;
+    display: flex;
+    align-items: center;
+    
+}
+
+.text{
+    width: 220em;
+    height: 160em;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.box1{
+    width: 30em;
+    height: 30em;
+    border-radius: 4em;
+    background: rgb(34,192,195);
+background: linear-gradient(318deg, rgba(34,192,195,0.34608695652173915) 0%, rgba(198,45,253,0.34608695652173915) 66%);
+
+}
+
+.box2{
+    width: 30em;
+    height: 30em;
+    border-radius: 4em;
+    background: rgb(195,34,184);
+background: linear-gradient(0deg, rgba(195,34,184,0.2147120786516854) 0%, rgba(253,243,45,0.2371839887640449) 55%);
+
+}
+
+
+
+.box3{
+    font-family: "IBM Plex Serif", serif;
+    height: 100em;
+    align-self: stretch;
+    padding-left: 20em;
+    line-height: 20em;
+    word-spacing: .7em;
+}
+
+.box3 h1{
+    font-size: 20em;
+    line-height: 1.2em;
+}
+
+.box3 p{
+    font-size: 9em;
+}
+
+
+/* ######################################### */
+
+.box{
+        width: 220em;
+        height: 160em;
+        display: flex;
+}
+
+
+
+
+
+
+/* ############################# */
+
+.box4{
+    height: 100%;
+    width: 270em;
+}
+
+.box4 .eye-box{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20em;
+    width: 390em;
+    height: 350em;
+    margin: auto;
+    margin-top: 9.4em;
+    background-color: black;
+    position: relative;
+}
+
+
+.ovel{
+    width: 220em;
+    height: 130em;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 500%;
+    background-color: #fff;
+}
+
+
+.circle{
+    width: 100em;
+    height: 100em;
+    margin: 44em auto;
+    border-radius: 100%;
+    background-color: black;
+}
+
+
+.lines{
+    position: absolute;
+    width: 300em;
+    height: 100em;
+    text-align: center;
+    top: 130em;
+    left: 135em;
+}
+
+
+.line2{
+    display: inline-block;
+    border: 2em solid white;
+    background-color: #fff;
+    height: 80em;
+    width: 28em;
+    border-radius:100em ;
+    margin-left: 19px;
+    margin-top: 10em;
+}
+
+.line1{
+    display: inline-block;
+    transform: rotate(-50deg);
+    height: 80em;
+    width: 28em;
+    background: white;
+    border: 2em solid white;
+    border-radius: 100em;
+
+    position: absolute;
+    right: 330em;
+    top: 37em;
+}
+
+
+.line3{
+    display: inline-block;
+    transform: rotate(50deg);
+    width: 28em;
+    height: 80em;
+    background: white;
+    border: 2em solid white;
+    border-radius: 100em;
+    margin-left: 20px;
+    position: absolute;
+    left: 330em;
+    top: 37em;
+}
+
+
+
+
+
+
+
+
+/* ############################# */
+
+.box5{
+    height: 245em;
+    width: 32em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.uper{
+    height: 46em;
+    border-radius: 5em;
+    background: rgb(195,34,184);
+background: linear-gradient(318deg, rgba(195,34,184,0.2147120786516854) 0%, rgba(253,243,45,0.2371839887640449) 35%);
+}
+
+.lower{
+    height: 46em;
+    border-radius: 5em;
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 2%, rgba(9,9,121,1) 24%, rgba(34,192,195,1) 78%);
+}
+
+
+.shadow{
+    box-shadow: 0px 0px 5px 0px #11111107;
+}
+
+.other{
+
+    font-size: 300%;
+    width: 70vw;
+    text-align: center;
+    margin: auto;
+}
